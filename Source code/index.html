@@ -14,79 +14,127 @@
     <body>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <div id="header">
-            <a id="logo-no-bg" href="index.html"><img src="/My own design/images/logo korporat-no-bg.png" height="30" alt="A.I.M Production Logo"></a>
+            <a id="logo-no-bg" href="index.html"><img src="/images/logo korporat-no-bg.png" height="30" alt="A.I.M Production Logo"></a>
                <div id="nav-menu">
-                   <a href="second.html" class="nav-links">Home</a>
-                   <a href="#news" class="nav-links">About Us</a>
-                   <a href="#news" class="nav-links">Products</a>
-                   <a href="#news" class="nav-links">Contact</a>
+                   <a href="#hero-section" class="nav-links">Home</a>
+                   <a href="#body-contents" class="nav-links">About Us</a>
+                   <a href="#products" class="nav-links">Products</a>
+                   <a href="#contact" class="nav-links">Contact</a>
                 </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
         </div>
+        <br/>
         <div id="hero-section">
             <div id="hero-section-text">
                 <h1>A.I.M Production</h1>
                 <h2>Innovating Education for a Better Tomorrow</h1>
                 <h3>Providing cutting-edge solutions for modern learning</h2>
-                <p>A.I.M Productions is a company that specialises in the production of helpful academic materials based on Malaysian Curriculum</p>
+                <p>A.I.M Productions is a company that specialises in the production of helpful academic materials based on Malaysian Curriculum<br/>We are on a mission improve the quality of education received by students.</p>
             </div>
-            <img id="hero-section-img" height="350" src="/My own design/images/logo korporat-no-bg.png">
+            <img id="hero-section-img" height="350" src="/images/logo korporat-no-bg.png">
         </div>
-        <br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/>
         <div id="body">
-            <div class="body-contents">
-                <h3 class="body-h3">AAbout Us</h3>
-                <p>A.I.M Production is a company established on the 1st of March 2024 by a group of students at SMK Gombak Setia with a vision to be the leading choice in providing high quality pocket notes to meet the learning needs of students around the world.<br/>Our mission is to</p>
-                <ul>
-                    <li>Mendedahkan ahli kepada asas perniagaan dan keusahawanan</li>
-                    <li>Melahirkan bakal usahawan yang bijak mengenal pasti peluang dan memahami prinsip-prinsip perniagaan serta mempunyai daya saing yang tinggi</li>
-                    <li>Menjual produk dengan kualiti yang baik dan mampu milik</li>
-                </ul>
+            <div id="body-contents">
+                <h3 class="body-h3">About Us</h3>
+                <p>A.I.M Production is a company established on the 1st of March 2024 by a group of students at SMK Gombak Setia<br/> with a vision to be the leading choice in providing high quality pocket notes to meet the learning needs of students around the world.<br/>Our mission is to</p>
+                <div id="ourpics">
+                    <div class="ourpics">
+                        <img src="/images/6147416481114210979.jpg" height="300" width="200">
+                        <p>Pengurus Projek</p>
+                    </div>
+                    <div class="ourpics">
+                        <img src="/images/6147416481114210980.jpg" height="300" width="200">
+                        <p>Pengurus Pengeluaran</p>
+                    </div>
+                    <div class="ourpics">
+                        <img src="/images/6147416481114210979.jpg" height="300" width="200">
+                        <p>Pengurus Pemasaran</p>
+                    </div>
+                    <div class="ourpics">
+                        <img src="/images/6147416481114210979.jpg" height="300" width="200">
+                        <p>Pengurus Kewangan</p>
+                    </div>
+                </div>
+            </div>
+            <br/> <br/> <br/> <br/> <br/> <br/> <br/><br/><br/><br/><br/><br/>
+            <div id="products">
+                <h3 class="body-h3">Our products</h3>
+                <h4> Available Products</h4>
+                <div id="available-products">
+                    <div class="available-products">
+                        <img src="/images/6122711236522131078(2).jpg" height="150" width="300">
+                        <p>Nota Poket Matematik Tingkatan 1</p>
+                    </div>
+                    <div class="available-products">
+                        <img src="/images/coverhalf.jpg" height="150" width="300">
+                        <p>Nota Poket Mathematics (DLP) Form 1</p>
+                    </div>
+                </div>
+                <br/><br/>
+                <h4>Coming Soon</h4>
+                <div id="coming-soon-products">
+                    <div class="coming-soon-products">
+                        <p class="coming-soon-pocket-notes">Nota Poket Sains Tingkatan 1</p>
+                    </div>
+                    <div class="coming-soon-products">
+                        <p class="coming-soon-pocket-notes">Nota Poket Science (DLP) Form 1</p>
+                    </div>
+                    <div class="coming-soon-products">
+                        <p class="coming-soon-pocket-notes">Nota Poket Bahasa Melayu</p>
+                    </div>
+                    <div class="coming-soon-products">
+                        <p class="coming-soon-pocket-notes">Nota Poket English</p>
+                    </div>
+                </div>
+            </div>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <div id="contact">
+                <h3 class="body-h3">Contact</h3>
+                <form id="application-form" action="https://formbold.com/s/3qRlR" method="POST" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="name">Full name</label><br/>
+                        <input type="text" id="name" name="Full name" required placeholder="John Doe">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">Email</label><br/>
+                        <input type="email" id="email" name="Email Address" required placeholder="jdoe@example.com">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="phone">Phone</label><br>
+                        <input type="tel" id="phone" name="phone" required placeholder="+919898989898">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="product">Product bought</label></br>
+                        <select id="product" name="Product bought" required>
+                            <option value="">Select product</option>
+                            <option value="nota poket matematik tingkatan 1">Nota Poket Matematik Tingkatan 1</option>
+                            <option value="nota poket mathematics (dlp) form 1">Nota Poket Mathematics (DLP) Form 1</option>
+                        </select>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="comment">Comment</label><br/>
+                        <textarea id="comment" name="comment" row="7" placeholder="Explain your experience with A.I.M Production products..."></textarea>
+                    </div>
+    
+                    <div class="form-group">
+                        <input type="submit" value="Submit Application">
+                    </div>
+    
+                </form>
+    
+                <p>Phone number: +60106504025.<br/><a id="mail" href="mailto:nurabarira@gmail.com">Email: nurabarira@gmail.com</a></p>
             </div>
         </div>
-        <div id="contact">
-            <form id="application-form" action="https://formbold.com/s/3qRlR" method="POST" enctype="multipart/form-data">
-                <div class="form-group">
-                    <label for="name">Full name</label><br/>
-                    <input type="text" id="name" name="Full name" required placeholder="John Doe">
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email</label><br/>
-                    <input type="email" id="email" name="Email Address" required placeholder="jdoe@example.com">
-                </div>
-
-                <div class="form-group">
-                    <label for="phone">Phone</label><br>
-                    <input type="tel" id="phone" name="phone" required placeholder="+919898989898">
-                </div>
-
-                <div class="form-group">
-                    <label for="product">Product bought</label></br>
-                    <select id="product" name="Product bought" required>
-                        <option value="">Select product</option>
-                        <option value="nota poket matematik tingkatan 1">Nota Poket Matematik Tingkatan 1</option>
-                        <option value="nota poket mathematics (dlp) form 1">Nota Poket Mathematics (DLP) Form 1</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="comment">Comment</label><br/>
-                    <textarea id="comment" name="comment" row="7" placeholder="Explain your experience with A.I.M Production products..."></textarea>
-                </div>
-
-                <div class="form-group">
-                    <input type="submit" value="Submit Application">
-                </div>
-
-            </form>
-
-            <p>Phone number: +60106504025.<br/><a href="mailto:nurabarira@gmail.com">Email: nurabarira@gmail.com</a></p>
-        </div>
+        <br/><br/><br/><br/>
         <div id="footer">
-            
+            <span class="copyright">© 2024, A.I.M Production</span>
         </div>
         
     </body>

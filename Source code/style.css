@@ -1,8 +1,77 @@
+html{
+    scroll-behavior: smooth;
+    scrollbar-color: rgb(219, 211, 67) rgb(15, 32, 118);
+}
+
 body{
     margin: 0;
     padding: 0;
     background-color:  white;
     scroll-behavior: smooth;
+}
+
+#body {
+    text-align: center;
+    padding: 8px;
+    margin: 8px auto;
+}
+
+#available-products {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 12px 50px;
+    box-shadow: 20px 22px 30px 1px #c9d2f1;
+    background-color: #c3f3f1;
+
+}
+
+.available-products {
+    display: block;
+    margin: 28px;
+}
+
+#coming-soon-products {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #c3f3f1;
+    margin: 12px 50px;
+    box-shadow: 20px 22px 30px 1px #c9d2f1;
+}
+
+.coming-soon-products {
+    display: block;
+    margin: 28px;
+}
+
+.coming-soon-pocket-notes {
+    color: #a98b39;
+    font-family: 'Tahoma';
+    font-weight: 700;
+}
+
+h4{
+    color: #061547;
+    font-family:Cambria ;
+    font-size: 20px;
+}
+
+.ourpics {
+    display: block;
+    margin: 12px auto;
+    text-align: center;
+    box-shadow: 15px 16px 30px 3px #c9d2f1;
+}
+
+#ourpics{
+    margin: 12px 8px;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #d1e3ff;
+    border-radius: 15px;
 }
 
 #header {
@@ -75,11 +144,20 @@ body{
 h1{
     color: #00008b;
     padding-bottom: 10px;
+    font-size: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h2{
+    color: #05052a;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h3{
     color: #4682b4;
     padding-bottom: 10px;
+    font-size: 25px;
 }
 
 .form-group {
@@ -108,9 +186,22 @@ h3{
     height: 16px;
 }
 
+.body-h3{
+    color: #db3615;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    color: #7b2525;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .form-group input[type="submit"]{
-    background-color: #3b82f6;
-    color: white;
+    background-color: #efdb59;
+    color: rgb(0, 0, 0);
     font-weight: 500;
     cursor: pointer;
 }
@@ -123,4 +214,20 @@ h3{
 
 #contact{
     margin-left: 10%;
+}
+
+#mail{
+    text-decoration: none;
+    color: #7b2525;
+}
+
+#mail:hover{
+    color: #a98b39;
+}
+
+#footer{
+    padding: 50px;
+    background-color: #f3f2f2;
+    color: #898989;
+    text-align: center;
 }
