@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  white;
+    scroll-behavior: smooth;
+}
+
+#header {
+    overflow: hidden;
+    position: relative;
+    background: none;
+    background-color:  #add8e6;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+#header #nav-menu {
+    display: none;
+    padding: 4px;
+    margin: -10px 4px 4px 4px;
+    background-color: #add8e6;
+}
+  
+  /* Style navigation menu links */
+#header a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+  /* Style the hamburger menu */
+#header a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+  /* Add a grey background color on mouse-over */
+#header .nav-links:hover {
+    color: #000080;
+    background-color: #9bcddd;
+}
+  
+  /* Style the active link (or home/logo) */
+#logo-no-bg {
+    background-color: #add8e6;
+    color: white;
+    margin-top: -10px;
+    /* margin: 0; */
+}
+
+#hero-section{
+    /* text-align: center; */
+    display: flex;
+    margin-top: 25px;
+    padding: 30px;
+    padding-left: 100px;
+    background-repeat: no-repeat;
+}
+
+#hero-section-text {
+    display: block;
+    padding-bottom: 10px;
+}
+
+#hero-section-img {
+    padding-right: 5%;
+    padding-bottom: 10px;
+}
+
+h1{
+    color: #00008b;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #4682b4;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin: 16px 0;
+}
+
+#application-form label {
+    font-weight: 600;
+}
+
+#application-form input, select, textarea {
+    padding: 8px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.form-group textarea {
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input[type="submit"]{
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+#contact{
+    margin-left: 10%;
+}
